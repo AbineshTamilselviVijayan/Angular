@@ -1,0 +1,26 @@
+<div class="registration-container">
+    <h1>Registration</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input id="username" type="text" class="form-control" [(ngModel)]="employee.userName" name="userName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" type="email" class="form-control" [(ngModel)]="employee.userEmail" name="userEmail" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input id="password" type="password" class="form-control" [(ngModel)]="employee.userPassword" name="userPassword" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input id="confirm-password" type="password" class="form-control" [(ngModel)]="employee.userRetypePassword" name="userRetypePassword" required>
+      </div>
+      <div>
+        <!-- <input type="submit" value="submit" class="btn btn-primary"> <br> -->
+        <button type="submit" class="btn btn-primary" (click)="saveData()">Register</button>
+        <a routerLink="/login">Already have an account?</a>
+      </div>
+    </form>
+  </div>  

@@ -1,0 +1,16 @@
+a:hover{
+    color: red;
+    background-color: blue;
+}
+
+body{
+    /* background-image: url(ocean.jpeg);
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: lightblue url(globle.png) no-repeat fixed center
+}
+
+p{
+    background-image: url();
+    visibility: ;
+}

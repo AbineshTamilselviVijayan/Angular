@@ -1,0 +1,68 @@
+.header {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#foot{
+    background-color: grey;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.parentdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: ;
+    background-image: url(helena-lopes-Pd8tLVGx2O4-unsplash.jpg);
+    background-size: cover;
+    height: 610px;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    height: 420px;
+    width: 400px;
+    border-radius: 50px;
+    font-size: large;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    height: 80px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.rainbow{
+
+}

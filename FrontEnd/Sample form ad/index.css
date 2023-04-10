@@ -1,0 +1,70 @@
+.head {
+  padding-left: 17px;
+  background-color: black;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  align-items: center;
+  height: 70px;
+}
+
+footer {
+  text-align: center;
+  height: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 62px;
+}
+
+.loginbody {
+  background-image: url(57276.png);
+}
+
+.loginbutton {
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.loginform {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 225px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.loginform1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 615px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border-radius: 5px;
+  width: 220px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.svg {
+  display: flex;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  height: 55px;
+}

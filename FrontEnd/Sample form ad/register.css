@@ -1,0 +1,80 @@
+.head {
+  padding-left: 17px;
+  background-color: black;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  align-items: center;
+  height: 70px;
+}
+
+.formhead{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.registerbody {
+  background-image: url(360_F_109023608_LwhTAVrzSUnzzOmJWdG5tEnSgHRuukZ5.jpg);
+}
+
+.formhead {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+input {
+  border-radius: 5px;
+  width: 220px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.registerbutton {
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registerform {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.registerform1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 615px;
+}
+
+.svg {
+  display: flex;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  height: 55px;
+}
+
+footer {
+  text-align: center;
+  height: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 62px;
+}

@@ -1,0 +1,8 @@
+leoleo<input type="text" class="form-control" [(ngModel)]="serversName" />
+<button class="btn btn-primary" [disabled]="serversName === ''" (click)="setAltName()" (click)="serversName = ''">Add Servers</button>
+<p *ngIf="serversAlive; else noServers">{{serverAliveStatus}}</p>
+<ng-template #noServers>
+    <p>
+        No servers active.
+    </p>
+</ng-template>
