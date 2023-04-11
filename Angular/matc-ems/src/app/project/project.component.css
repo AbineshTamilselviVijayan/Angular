@@ -1,0 +1,24 @@
+.form-group {
+  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding-left: 150px;
+}
+
+.button-container {
+  display: flex; /* Set display property to flex to align buttons horizontally */
+  justify-content: center; /* Center align buttons within the container */
+  padding: 10px;
+}
+
+.address{
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+}
+
+.addemployee{
+  padding-top: 10px;
+}

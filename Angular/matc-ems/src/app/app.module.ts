@@ -9,13 +9,14 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
-// import { ServiceWorkerModule } from '@angular/service-worker';
-// import { environment } from '../environments/environment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectComponent } from './project/project.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, SidebarComponent, LoginComponent, RegisterComponent, DashboardComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, SidebarComponent, LoginComponent, RegisterComponent, DashboardComponent, ContactComponent, ProjectComponent, AboutComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,0 +1,40 @@
+<div>
+  <app-sidebar></app-sidebar>
+</div>
+<div class="form-group">
+  <h5>EMS Backend API support:</h5>
+  <div>
+    <label for="firstname">First Name:</label>
+    <input id="firstname" type="text" class="form-control" name="firstname" required />
+  </div>
+  <div>
+    <label for="lastname">Last Name:</label>
+    <input id="lastname" type="text" class="form-control" name="lastname" required />
+  </div>
+  <div>
+    <label for="mobile">Mobile:</label>
+    <input id="mobile" type="tel" class="form-control" maxlength="10" name="mobile" required />
+  </div>
+  <div>
+    <label for="mail">Mail:</label>
+    <input id="mail" type="email" class="form-control" name="mail" required />
+  </div>
+  <div class="button-container">
+    <button id="button" type="submit" class="btn btn-success" (click)="changeInactive()" [disabled]="status">Active</button>
+    <button id="button" type="submit" class="btn btn-danger" (click)="changeActive()" [disabled]="!status">Inactive</button>
+  </div>
+  <div class="address">
+    <h5>Address:</h5>
+    <div>
+      <label for="place">Place:</label>
+      <input id="place" type="text" class="form-control" name="place" required />
+    </div>
+    <div>
+      <label for="pincode">Pincode:</label>
+      <input id="pincode" type="text" class="form-control" maxlength="6" name="pincode" required />
+    </div>
+  </div>
+  <div class="addemployee">
+    <button class="btn btn-primary">Add employee</button>
+  </div>
+</div>

@@ -1,9 +1,9 @@
-*{
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 75px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+* {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
