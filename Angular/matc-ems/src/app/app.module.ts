@@ -14,6 +14,7 @@ import { environment } from '../environments/environment';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, SidebarComponent, LoginComponent, RegisterComponent, DashboardComponent, ContactComponent, ProjectComponent, AboutComponent],
@@ -21,6 +22,8 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    BrowserModule,
+    HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production
       // Register the ServiceWorker as soon as the application is stable

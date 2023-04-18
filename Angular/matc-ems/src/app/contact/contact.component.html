@@ -23,14 +23,14 @@
   <div class="form-group">
     <div>
       <label for="contactMail">Mail:</label>
-      <input id="contactMail" type="email" class="form-control" name="contactMail" required />
+      <input id="contactMail" type="email" class="form-control" (input)="coSubmitStatus()" [(ngModel)]="contactMail" name="contactMail" required />
     </div>
     <div>
       <label for="contactMobile">Mobile:</label>
-      <input id="contactMobile" type="tel" class="form-control" maxlength="10" name="contactMobile" required />
+      <input id="contactMobile" type="tel" class="form-control" (input)="coSubmitStatus()" maxlength="10" [(ngModel)]="contactMobile" name="contactMobile" required />
     </div>
     <div class="contactbutton">
-      <input class="btn btn-primary" type="button" value="Submit">
+  <input class="btn btn-primary" type="button" [disabled]="contactSubmitStatus" value="Submit">
     </div>
   </div>
 </div>
